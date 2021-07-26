@@ -1,0 +1,29 @@
+{
+  "name": "automatizacion",
+  "version": "1.0.0",
+  "description": "Primer Proyecto de automatizacion",
+  "main": "index.js",
+  "scripts": {
+    "open": "node_modules\\.bin\\cypress open",
+    "test": "node_modules\\.bin\\cypress run",
+    "testChrome": "npm test run -- --browser chrome",
+    "testDashboardChromeHeadless": "npm run test -- --record --key aeb5e554-b0ca-44fd-9a04-b941d42ac2e2 --browser chrome --headless",
+    "testConjunto1": "npm run testDashboardChromeHeadless -- --spec \"cypress\\integration\\examples\\Conjunto1\\*\""
+  },
+  "author": "Nico Lopez",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^7.7.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "multiple-cucumber-html-reporter": "^1.18.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePreFix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}

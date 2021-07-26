@@ -1,0 +1,24 @@
+{
+  "nombre": "Nicolas",
+  "apellido": "Lopez",
+  "email": "nicolopez98@gmail.com",
+  "genero": "Male",
+  "telefono": "2216790726",
+
+  "fechadenacimiento": [
+    "December",
+     "1990",
+      "31"
+    ],
+  "materias": "English",
+
+  "hobbies":[
+    "Sports",
+     "Music"
+    ],
+  "imagen":"my-image.png",
+  "direccion": "Direccion ficticia 123 =)",
+  "estado":"NCR",
+  "ciudad":"Delhi"
+
+}

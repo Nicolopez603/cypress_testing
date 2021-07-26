@@ -1,0 +1,83 @@
+[
+  {
+    "description": "    Este feature esta siendo adaptado desde un formate de PageObjectModel hacia Cucumber",
+    "keyword": "Feature",
+    "name": "Primer conjunto de casos de prueba de pagina de compras",
+    "line": 1,
+    "id": "primer-conjunto-de-casos-de-prueba-de-pagina-de-compras",
+    "tags": [],
+    "uri": "shoppingTest.feature",
+    "elements": [
+      {
+        "id": "primer-conjunto-de-casos-de-prueba-de-pagina-de-compras;crear una compra desde cero",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Crear una compra desde cero",
+        "tags": [
+          {
+            "name": "@Integracion",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "el usuario se encuentra en la pagina de compra",
+            "result": {
+              "status": "undefined",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "busca un articulo llamado blusa",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "agrega una blusa al carrito",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "el valor del articulo es de 27 dolares",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "finaliza la compra de los articulos",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "el mensaje de orden completada deberia aparecer",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
