@@ -11,14 +11,14 @@ Utilizacion de POM <Verificar el caso de prueba 6>
 Integrado con Jenkins y Cucumber (Gherkin) (Cucumber/shoppingTest)
 
 
-2- https://demoqa.com/automation-practice-form (PruebasDataDriven)
+2- https://demoqa.com/automation-practice-form (PruebasDataDriven.js)
 
 Reto mas importante:
 Subir una imagen a la pagina nombrada
 Automatizar calendario (Ya que se encuentra en un modelo dificil de automatizar)
 Utilizamos Parametros JSON para parametrizar elementos y Data
 
-3- https://demo.opencart.com/index.php
+3- https://demo.opencart.com/index.php  (PruebasAvanzadas.js)
 
 Reto mas importante:
 
